@@ -97,18 +97,20 @@ button:hover {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  padding: 20px;
 }
 
 #modal-conteudo {
   background: white;
   padding: 30px;
   border-radius: 10px;
-  width: 90%;
+  width: 100%;
   max-width: 600px;
+  max-height: 90%;
+  overflow-y: auto;
   text-align: left;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   animation: zoomIn 0.3s ease;
-  overflow: hidden;
   margin: auto;
 }
 
